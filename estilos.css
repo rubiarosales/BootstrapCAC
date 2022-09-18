@@ -1,12 +1,28 @@
 .navbar {
     background-color: #353a40;
-    
+
 }
 
-#navbarNav{
-    color: #ffff;
+#navbarNav {
+    color: #fff;
 }
-#L-active{
+
+#L-active {
     color: #29a744;
 }
 
+.carousel-info {
+    position: absolute;
+    right: 100px;
+    z-index: 100;
+    color: #fff;
+}
+
+.carousel-item {
+    filter: brightness(0.5);
+    height: 600px;
+}
+
+d-block {
+    object-fit: cover;
+}

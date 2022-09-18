@@ -1,46 +1,80 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Proyecto Integrador </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
-  </head>
-  <body>
 
-      <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
-        <div class="container-fluid text-light">
-          <a class="navbar-brand" href="#">
-            <img src="/codoacodo.png" alt="" width="80" height="45" >
-            Conf Bs As
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link active"  aria-current="page" href="#">La conferencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conviértete en orador </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="L-active">Comprar tickets</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto Integrador </title>
+  <!-- Bootstrap Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- Estilos customizados -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
 
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  </body>
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+    <div class="container-fluid text-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/codoacodo.png" alt="" width="80" height="45">
+        Conf Bs As
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El lugar y la fecha </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en orador </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="L-active">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-info text-end">
+        <h3> Conf Bs As</h3>
+        <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+          exoperiencia de los expertos que están creando el futuro de internet. Ven a conocer a mienbros del evento, a
+          otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!</p>
+          <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+      </div>
+      <div class="carousel-item active">
+        <img src="img/ba1.jpg" class="d-block w-100" alt="Palacio Aysa">
+
+      </div>
+      <div class="carousel-item">
+        <img src="img/ba2.jpg" class="d-block w-100" alt="otro edificio">
+      </div>
+      <div class="carousel-item">
+        <img src="img/ba3.jpg" class="d-block w-100" alt="Obelisco Porteño">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
