@@ -10,19 +10,25 @@
 #L-active {
     color: #29a744;
 }
-
+.carousel-inner{
+    height: fit-content;
+}
 .carousel-info {
     position: absolute;
-    right: 100px;
+    height: fit-content;
+    margin-right:50px;
     z-index: 100;
     color: #fff;
 }
 
-.carousel-item {
+.carousel-item{
     filter: brightness(0.5);
-    height: 600px;
+    object-fit: cover;
+    max-height: 500px;
+}
+.subtitle{
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
 }
 
-d-block {
-    object-fit: cover;
-}
