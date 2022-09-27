@@ -18,13 +18,16 @@
     height: fit-content;
 }
 .carousel-info {
-    position: absolute;
+    /* position: absolute; */
     height: fit-content;
     margin-right:50px;
     z-index: 100;
     color: #fff;
 }
 
+.text-span{
+    text-decoration: underline dotted;
+}
 .carousel-item img{
     filter: brightness(0.5);
     object-fit: cover;
