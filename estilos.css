@@ -20,7 +20,7 @@
 .carousel-info {
     /* position: absolute; */
     height: fit-content;
-    margin-right:50px;
+    margin-right:5rem;
     z-index: 100;
     color: #fff;
 }
@@ -31,7 +31,7 @@
 .carousel-item img{
     filter: brightness(0.5);
     object-fit: cover;
-    max-height: 500px;
+    max-height: 600px;
 }
 h6{
     font-weight: 300;
@@ -60,6 +60,14 @@ ul{
     background-color: #96c93e;
     border:none;
 }
-#bgColor{
-    background-color: #17a2b5;
+
+footer ul li {
+    width: 100px;
+}
+@media screen and (max-width: 600px){
+    .carousel-info {
+
+        margin-right:20px;
+
+    }
 }
